@@ -1,16 +1,17 @@
 console.log('ciao Karim');
 
 //dichiaro le costanti e variabili.
-const nomeUtente = "Karim";
-const cognomeUtente = "Pucci";
-const colorePreferito = "Grigio"
+let nomeUtente = "Karim";
+let cognomeUtente = "Pucci";
+let colorePreferito = "Grey"
 let output;
 //chiuso
 
 
-const nomeUtente = (prompt("What is your name?"));
-const cognomeUtente = (prompt("What is your last name?"));
-const colorePreferito = (prompt("What is your favorite color?"));
+nomeUtente = prompt("What is your name?");
+cognomeUtente = (prompt("What is your last name?"));
+colorePreferito = (prompt("What is your favorite color?"));
 output = `
   <strong> ${nomeUtente} </strong> <strong> ${cognomeUtente} </strong> <strong> ${colorePreferito} </strong>
 `
+document.getElementById("output").innerHTML = output
