@@ -1,14 +1,21 @@
 body{
   width: 100%;
   height: 100%;
-  background-color: gray;
+  background-image: url(/img/sfondo3.jpg);
+  color: white;
 }
 
 
 .tit{
   font-weight: bold;
   text-align: center;
-  font-size: 70px;
+  font-size: 40px;
+}
+
+p{
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
 }
 
 
